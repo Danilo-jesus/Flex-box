@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#182021 ;
+}
+
+.container-1{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #403F3F;
+    padding: 18px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.cabeçalho-logo h1{
+    font-family: "Holtwood One SC";
+    color: #1DD3BE;
+    font-weight: normal;
+
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.cabeçalho-link a{
+    color: #fff;
+}
+
+.container-2{
+    max-width: 1250px;
+    margin: auto;
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
+}
+
+.title-section h1{
+    font-size: 50px;
+    font-weight: normal;
+    color: #fff;
+    font-family:"Days One" ;
+}
+
+.title-section span{
+    color: #18E9E9;
+}
+
+
+.title-section hr{
+    margin-top: 20px;
+    margin-left: 135px;
+    width: 200px;
+}
+
+.title-section p{
+    font-family: "Roboto";
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.section-1 img{
+    width: 550px;
+    height: auto;
+}
+
+.container-3{
+    max-width: 1250px;
+    margin: auto;
+}
+
+.container-3 h1{
+    font-size: 50px;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.container-3 span{
+    color: #18E9E9;
+}
+
+.container-3 hr{
+    margin-top: 32px;
+    width: 200px;
+    margin-left: 525px;
+}
+
+.Cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.Card{
+    background-color: #403F3F;
+    padding: 25px;
+    height: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Card p{
+    color: #fff;
+    font-family: "Roboto";
+    margin-top: 20px;
+}
+
+.container-4{
+    max-width: 1250px;
+    margin: auto;
+}
+
+.section-3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.Title h1{
+    font-size: 50px;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+
+.Title span{
+    color: #18E9E9;
+}
+
+.Title hr{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 200px;
+}
+
+.Title p{
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    font-family: "Roboto";
+    line-height: 20px;
+    font-size: 17px;
+
+}
+
+.container-5 {
+    max-width: 1250px;
+    margin: auto;
+    background-color: #403F3F;
+    margin-top: 100px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.container-5 h1{
+    display: flex;
+    justify-content: center;
+    color: #03ffff;
+    font-family: "Roboto";
+    font-weight: normal;
+
+}
+
+.container-5 hr{
+    width: 550px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
